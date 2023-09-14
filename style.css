@@ -20,11 +20,16 @@ justify-content: space-around;
 color: beige;
 font: 100px;
 }
+.content{
+    flex: 1;
+    display: flex;
+}
 
 .casino
 {
 flex: 1;
 display: flex;
+flex-direction: column;
 width: 500px;
 height: 500px;
 border-radius: 10px;
@@ -33,6 +38,7 @@ nav
 {
     display: flex;
     flex-direction: column;
+    margin: 40px;
 }
 ul
 {
